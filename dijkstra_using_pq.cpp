@@ -1,12 +1,12 @@
 // dijkstra will not work for negetive edge weights(Directed weighted cyclic and acyclic will work fine)
 // And there is no profit to apply this on undirected graph bcs bfs gives the nice time complexity for undirected unweighted graph
 
-/* Dijkstra using Priority Queue(Min Heap) */
+/* Dijkstra using Priority Queue(Min Heap) on Directed Weighted graph*/
 
 #define pii pair<int, int>
 
 vector<int> shortestPath(int N, int M, vector<vector<int>>& edges) {
-    // Weighted graph
+    // Directed Weighted graph
     vector<pii> adj[N];
     for (auto e : edges) {
         adj[e[0]].push_back({e[1], e[2]}); // u -> {v, w}
