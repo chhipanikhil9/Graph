@@ -10,12 +10,12 @@
 1. [Floyd-Warshall](floyd_warshall.cpp): O(N^3)
 
 ## Topological Sort
-1. [Topological sort](topologica_sort_by_bfs.cpp)[Using BFS]
-2. [Topological sort](topologica_sort_by_dfs.cpp)[Using DFS]
+1. [Topological sort](topologica_sort_using_bfs.cpp)[Using BFS]
+2. [Topological sort](topologica_sort_using_dfs.cpp)[Using DFS]
 
 ## Disjoint Set (Union-Find) Data Structure
-1. [DSU using size](dsu_using_size.cpp)
-2. [DSU using rank](dsu_using_rank.cpp)
+1. [DSU using size](dsu_by_size.cpp)
+2. [DSU using rank](dsu_by_rank.cpp)
 ### Problems:
 1. [city and flood](https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/practice-problems/algorithm/city-and-flood-1/)
 2. [city and campers](https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/practice-problems/algorithm/city-and-campers/)
