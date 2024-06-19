@@ -1,3 +1,4 @@
+// First choose any node and put in the pq. Then pick the node with the lowest edge related to this take node. and perform this until all vertices are not visited.
 int spanningTree(int V, vector<vector<int>> adj[]){
   
     priority_queue<pii,vector<pii>,greater<pii>> q;
