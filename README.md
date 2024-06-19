@@ -13,6 +13,10 @@
 1. [Topological sort](topologica_sort_using_bfs.cpp)[Using BFS]
 2. [Topological sort](topologica_sort_using_dfs.cpp)[Using DFS]
 
+## Disjoint Set (Union-Find) Data Structure
+1. [DSU using size](dsu_using_size.cpp)
+2. [DSU using rank](dsu_using_rank.cpp)
+
 ## Cycle Detection
 
 1. [Khan's Algorithm](khans_algo.cpp)[BFS for topological sort]: It only works for Directed Graph.
