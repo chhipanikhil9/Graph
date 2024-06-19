@@ -8,3 +8,13 @@
 
 ## All Pair Shortest Path
 1. [Floyd-Warshall](floyd_warshall.cpp): O(N^3)
+
+## Topological Sort
+1. [Topological sort](topologica_sort_using_bfs.cpp)[Using BFS]
+2. [Topological sort](topologica_sort_using_dfs.cpp)[Using DFS]
+
+## Cycle Detection
+
+1. [Khan's Algorithm](khans_algo.cpp)[BFS for topological sort]: It only works for Directed Graph.
+2. Union-Find Method: Uses the Union-Find data structure to detect cycles during the union operation. It only works for an Un-Directed Graph
+3. DFS Method: Uses depth-first search to detect back edges. It works for both.
