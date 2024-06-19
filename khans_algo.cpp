@@ -1,5 +1,6 @@
-// Khan's algo to find the cycle: it uses the topologica sort if the order contains all the vertices, 
-// then it there is no cycle else there is a cycle present in the graph
+// Khan's algo to find the cycle in Directed Graph: it uses the topological sort if the order contains all the vertices, 
+// then there is no cycle else there is a cycle present in the graph
+// For an un-directed graph this will not work use BFS with parent
 bool isCyclePresent(int V, vector<int> adj[]) 
 {
     // code here
@@ -7,7 +8,7 @@ bool isCyclePresent(int V, vector<int> adj[])
     vector<int> order;
     vector<int> indegree(V+1,0);
   
-    // find indegree of all the nodes
+    //Find the in-degree of all the nodes
     for(int i=0;i<V;i++){
         for(auto nbr: adj[i]){
             indegree[nbr]++;
