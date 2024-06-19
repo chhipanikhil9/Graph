@@ -1,5 +1,26 @@
-#define pii pair<int,int>
+vector<int> parent;// resize them in main
+ vector<int> sz;
+ void make(int u){
+     parent[u] = u;
+     sz[u] = 1;
+ }
 
+ int findParent(int u){
+     if(parent[u]==u) return u;
+     return parent[u] = find(parent[u]);
+ }
+ 
+ void Union(int u,int v){
+     int ur = find(u);
+     int vr = find(v);
+     if(ur==vr) return;
+     if(sz[ur]<sz[vr]) swap(ur,vr);
+     parent[vr] = ur;
+     sz[ur] += sz[vr];
+ }
+
+
+/* In class form
 class DisjointSet{
    public:
    
@@ -31,3 +52,4 @@ class DisjointSet{
         size[a] += size[b];
    }
 };
+*/
