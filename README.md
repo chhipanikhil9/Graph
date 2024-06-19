@@ -20,5 +20,5 @@
 3. DFS Method: Uses depth-first search to detect back edges. It works for both.
 
 ## Minimum Spanning Tree(MST)
-1. (Prim's Algo)[prims_algo.cpp]
-2. (Cruskal's Algo)[kruskals_algo.cpp]
+1. [Prim's Algo](prims_algo.cpp)
+2. [Cruskal's Algo](kruskals_algo.cpp)
