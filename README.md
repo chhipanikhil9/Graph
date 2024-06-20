@@ -31,3 +31,6 @@
 ## Minimum Spanning Tree(MST)
 1. [Prim's Algo](prims_algo.cpp)
 2. [Cruskal's Algo](kruskals_algo.cpp)
+
+## Problem Patterns
+1. [Graph Coloring](making_a_large_iseland.cpp)
