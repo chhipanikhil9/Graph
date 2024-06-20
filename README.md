@@ -34,3 +34,5 @@
 
 ## Problem Patterns
 1. [Graph Coloring](making_a_large_iseland.cpp)
+
+## [Monotonic Stack Resource:](https://itnext.io/monotonic-stack-identify-pattern-3da2d491a61e)
