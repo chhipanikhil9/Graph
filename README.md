@@ -22,6 +22,7 @@
 3. [city and fireman vincent](https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/practice-problems/algorithm/city-and-fireman-vincent/)
 4. [city and soldiers](https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/practice-problems/algorithm/city-and-soldiers/)
 5. [city and campers 2](https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/practice-problems/algorithm/city-and-campers-2/)
+6. [colourful array](https://www.spoj.com/problems/CLFLARR/) Nice problem🔥🔥🤯🤯
 
 ## Cycle Detection
 1. [Khan's Algorithm](khans_algo.cpp)[BFS for topological sort]: It only works for Directed Graph.
