@@ -34,6 +34,12 @@
 1. [Prim's Algo](prims_algo.cpp)
 2. [Cruskal's Algo](kruskals_algo.cpp)
 
+## Strongly connected components(scc) -> Kosaraju Algo: follow three steps:
+1. Sort the nodes on the basis of finishing time of dfs.
+2. Reverese the edges
+3. Run the dfs on nodes in their sorted finishing time.
+4. [Code](kosaraju.cpp)
+
 ## Problem Patterns
 1. [Graph Coloring](making_a_large_iseland.cpp)
 
