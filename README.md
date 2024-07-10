@@ -12,6 +12,8 @@
 ## Topological Sort
 1. [Topological sort](topologica_sort_using_bfs.cpp)[Using BFS]
 2. [Topological sort](topologica_sort_using_dfs.cpp)[Using DFS]
+3. Questions:
+   1. https://codeforces.com/problemset/problem/825/E
 
 ## Disjoint Set (Union-Find) Data Structure
 1. [DSU using size](dsu_by_size.cpp)
