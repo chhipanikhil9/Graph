@@ -10,12 +10,12 @@ vector<vector<int>> floyedWarshall(int n, int m, vector<vector<int>>& edges) {
   // dist[i][i] = 0;
   for (int i = 0; i < n; i++) dist[i][i] = 0;
 
-  for (int vis = 0; vis < n; via++) {
+  for (int via = 0; via < n; via++) {
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < n; j++) {
         if (dist[i][via] == INT_MAX || dist[via][j] == INT_MAX)
           continue;
-        dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
+        dist[i][j] = min(dist[i][j], dist[i][via] + dist[via][j]);
       }
     }
   }
