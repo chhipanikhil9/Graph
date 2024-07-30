@@ -10,8 +10,8 @@
 1. [Floyd-Warshall](floyd_warshall.cpp): O(N^3)
 
 ## Topological Sort
-1. [Topological sort](topologica_sort_using_bfs.cpp)[Using BFS]
-2. [Topological sort](topologica_sort_using_dfs.cpp)[Using DFS]
+1. [Topological sort](topological_sort_using_bfs.cpp)[Using BFS]
+2. [Topological sort](topological_sort_using_dfs.cpp)[Using DFS]
 3. Questions:
    1. https://codeforces.com/problemset/problem/825/E
 
