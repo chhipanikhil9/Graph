@@ -34,6 +34,7 @@
 
 ## Minimum Spanning Tree(MST)
 1. [Prim's Algo](prims_algo.cpp)
+    1. [Kingdom and its Roads](https://www.hackerearth.com/problem/algorithm/kingdom-and-its-roads/) 
 2. [Cruskal's Algo](kruskals_algo.cpp)
 
 ## Strongly connected components(scc) -> Kosaraju Algo: follow three steps:
