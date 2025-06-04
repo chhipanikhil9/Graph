@@ -30,7 +30,7 @@
 ## Cycle Detection
 1. [Khan's Algorithm](khans_algo.cpp)[BFS for topological sort]: It only works for Directed Graph.
 2. Union-Find Method: Uses the Union-Find data structure to detect cycles during the union operation. It only works for an Un-Directed Graph
-3. DFS Method: Uses depth-first search to detect back edges. It works for both.
+3. DFS Method: Uses depth-first search to detect back edges. It works for both but in the Directed Graph it need the extra space to track that the the back edge is for the current path that is in the recursion stack. (see the [code](cycle_in_DG.cpp) for better understanding);
 
 ## Minimum Spanning Tree(MST)
 1. [Prim's Algo](prims_algo.cpp)
