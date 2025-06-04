@@ -46,5 +46,21 @@
 ## Problem Patterns
 1. [Graph Coloring](making_a_large_iseland.cpp)
 
+## Shortest Path Algorithms and Problems(Striver's sheet)
+1. https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1
+2. https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
+3. https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+4. https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/
+5. https://leetcode.com/problems/network-delay-time/description/
+6. https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
+7. https://leetcode.com/problems/path-with-minimum-effort/description/
+8. https://leetcode.com/problems/shortest-path-in-binary-matrix/description/
+9. https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1
+10. https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
+11. https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
+12. https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/
+
+
+
 ## [Monotonic Stack Resource:](https://itnext.io/monotonic-stack-identify-pattern-3da2d491a61e)
 ## [Re](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
