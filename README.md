@@ -63,4 +63,4 @@
 
 
 ## [Monotonic Stack Resource:](https://itnext.io/monotonic-stack-identify-pattern-3da2d491a61e)
-## [Re](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
+## [sweep-line concept](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
