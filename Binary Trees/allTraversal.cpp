@@ -79,6 +79,52 @@ public:
             curr = curr->right;
         }
     }
+    vector<int> iterativePreorder(TreeNode* root) {
+        vector<int> preorder;
+        if(root == nullptr) {
+            return preorder;
+        }
+        stack<TreeNode*> st;
+        st.push(root);
+        
+        while(!st.empty()) {
+            root = st.top();
+            st.pop();
+            preorder.push_back(root->val);
+            if(root->right != nullptr) {
+                st.push(root->right);
+            }
+            if(root->left != nullptr) {
+                st.push(root->left);
+            }
+        }
+        return preorder;
+    }
+
+    // space: O(N) using 2 stack
+    vector<int> iterativePostorder(Node* root) {
+        vector<int> res;
+        if (!root) return res;
+
+        // st1 to store the nodes in process
+        // and st2 is to store the postorder sequence
+        stack<Node*> s1, s2;
+        s1.push(root);
+    
+        while (!s1.empty()) {
+            Node* node = s1.top();
+            s1.pop();
+            s2.push(node);
+            if (node->left) s1.push(node->left);
+            if (node->right) s1.push(node->right);
+        }
+        
+        while (!s2.empty()) { // it is the postorder
+            res.push_back(s2.top()->val);
+            s2.pop();
+        }
+        return res;
+    }
 
     vector<int> traverse(TreeNode* root) {
         vector<int> ans;
