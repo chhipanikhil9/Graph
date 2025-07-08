@@ -60,7 +60,32 @@
 11. https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
 12. https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/
 
+## BFS Types
+1. simple bfs(level order)
 
+2. 0-1 BFS(using deque)
+   - https://leetcode.com/problems/shortest-bridge/
+   - https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+   - https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/
+  
+3. Multi-source BFS
+   - https://leetcode.com/problems/walls-and-gates/
+   - https://leetcode.com/problems/as-far-from-land-as-possible/
+   - https://leetcode.com/problems/map-of-highest-peak/
+   - https://leetcode.com/problems/rotting-oranges/
+  
+4. BFS with bitmasking
+   - https://leetcode.com/problems/shortest-path-with-alternating-colors/
+   - https://leetcode.com/problems/shortest-path-to-get-all-keys/
+   - https://leetcode.com/problems/shortest-path-visiting-all-nodes/
+  
+5. Bi-directional BFS (Bi-BFS)
+   - https://leetcode.com/problems/word-ladder/
+   - https://leetcode.com/problems/word-ladder-ii/
+   - https://leetcode.com/problems/minimum-genetic-mutation/
+   - https://leetcode.com/problems/jump-game-iv/
+   - https://leetcode.com/problems/open-the-lock/
+   - https://leetcode.com/problems/shortest-bridge/
 
 ## [Monotonic Stack Resource:](https://itnext.io/monotonic-stack-identify-pattern-3da2d491a61e)
 ## [sweep-line concept](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
