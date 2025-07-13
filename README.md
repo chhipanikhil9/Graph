@@ -43,6 +43,15 @@
 3. Run the dfs on nodes in their sorted finishing time.
 4. [Code](kosaraju.cpp)
 
+## Find-Bridge(Targan's Algo): 
+- in this we keep track of the inTime of the node in which the dfs is called and the lowTime that stores the minimum time of the ancestors of it(or in-short the minimum inTime of the component this node is part of) so
+1. when the nbr is not visited we call dfs on it and after finish assign the low[node] = min(low[node],low[nbr]) and check if the inTime[node] < lowtime[nbr] that this is a bridge
+2. if not visited just use the back edge and assign the lowTime of node and nbr to the node: low[node] = min(low[node],low[nbr]);
+[Targan's Algo](bridge.cpp)
+
+## Find Articulation Point
+- 
+
 ## Problem Patterns
 1. [Graph Coloring](making_a_large_iseland.cpp)
 
