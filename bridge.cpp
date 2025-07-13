@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/critical-connections-in-a-network/description/
 // Time: O(E+V)
 class Solution {
 public:
