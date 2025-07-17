@@ -97,3 +97,4 @@
 
 ## [Monotonic Stack Resource:](https://itnext.io/monotonic-stack-identify-pattern-3da2d491a61e)
 ## [sweep-line concept](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
+## [prefix-sum patterns(linear,divisble-modulo,2-d,xor-sum,)](https://leetcode.com/discuss/post/5119937/prefix-sum-problems-by-c0d3m-08l9/)
