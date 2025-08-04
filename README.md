@@ -49,7 +49,7 @@
 2. if not visited just use the back edge and assign the lowTime of node and nbr to the node: low[node] = min(low[node],low[nbr]);
 [Targan's Algo](bridge.cpp)
 
-## [Find Articulation Point](https://www.geeksforgeeks.org/problems/articulation-point-1/1?utm_medium=collab_striver_ytdescription&utm_campaign=articulation-point&utm_source=youtube)
+## [Articulation Point](Articulation_point.cpp)
 
 ## Problem Patterns
 1. [Graph Coloring](making_a_large_iseland.cpp)
