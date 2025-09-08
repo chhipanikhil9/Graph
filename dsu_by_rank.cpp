@@ -27,10 +27,10 @@ class DisjointSet{
        if(rootU==rootV) return;
 
        // make small rank root to child of the big rank root
-       if(rootU<rootV){
+       if(rank[rootU]<rank[rootV]){
           parent[rootU] = rootV;
        }
-       else if(rootV<rootU){
+       else if(rank[rootV]<rank[rootU]){
          parent[rootV] = rootU;
        }
        else{
