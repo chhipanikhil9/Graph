@@ -16,6 +16,7 @@ vector<int> shortestPath(vector<vector<int>>& edges, int N,int M, int src){
         int lvl = 0;
         while(!q.empty()){
             int sz = q.size();
+            bool flag = 0;
             for(int i=0;i<sz;i++){
                 int cur = q.front();
                 q.pop();
@@ -24,10 +25,12 @@ vector<int> shortestPath(vector<vector<int>>& edges, int N,int M, int src){
                     if(!vis[nbr]){
                         q.push(nbr);
                         vis[nbr] = true;
+                        flag = 1;
                     }
                 }
             }
-            lvl++;
+            if(flag)
+                lvl++;
         }
         return ans;
     }
