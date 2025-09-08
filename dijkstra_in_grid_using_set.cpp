@@ -23,8 +23,8 @@ int minimumEffortPath(vector<vector<int>>& grid) {
             if(nx>=0 and nx<m and ny>=0 and ny<n){
                 int cost = max(d,abs(grid[nx][ny]-grid[x][y]));
                 if(cost<dis[nx][ny]){
-                    dis[nx][ny] = cost;
                     st.erase({dis[nx][ny],nx,ny});
+                    dis[nx][ny] = cost;
                     st.insert({cost,nx,ny}); 
                 }
             }
